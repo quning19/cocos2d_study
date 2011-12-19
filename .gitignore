@@ -1,0 +1,118 @@
+##########################
+#  cocos2d
+##########################
+
+Box2D/
+chipmunk/
+cocos2dx/
+CocosDenshion/
+Debug.win32/
+docs/
+doxygen/
+HelloLua/
+HelloWorld/
+licenses/
+prisonville/
+Release.win32/
+template/
+tests/
+tools/
+
+
+##########################
+#  xcode
+##########################
+.DS_Store
+*.swp
+*~.nib
+
+build/
+
+*.pbxuser
+*.perspective
+*.perspectivev3
+
+*.mode1v3
+*.mode2v3
+
+xcuserdata/
+
+##########################
+#  eclipse android 
+##########################
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+##########################
+#  visual studio 2008
+##########################
+[Tt]humbs.db
+
+*.[Oo]bj
+*.aps
+*.pch
+*.user
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+ipch/
+obj/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+Ankh.NoLoad
+TestResults/
+
+##########################
+#  other
+##########################
+.svn
+~$*
+*.log
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+##########################
+#  project specified
+##########################
+android/assets/
+android/libs/
+android/obj/
+!Prefix.pch
+!libs/cocos2dx/platform/third_party/win32/libraries/*.lib
+!prisonville.win32.vcproj.user
